@@ -97,6 +97,7 @@
 
 <script>
 export default {
-    layout: 'form'
+    layout: 'form',
+    middleware: 'auth',
 }
 </script>
